@@ -1,1 +1,1 @@
-print("rena" + "to")
+print("rena" + "")
