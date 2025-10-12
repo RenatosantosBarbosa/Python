@@ -1,0 +1,13 @@
+n1 = (input("Digite Algo: "))
+
+print(f"O tipo primitivo é {type(n1)}")
+print(f"Tem apenas letras ou números? {n1.isalnum()}")
+print(f"Está tudo em minúsculas? {n1.islower()}")
+print(f"Tem apenas letras? {n1.isalpha()}")
+print(f"Está tudo em maiúsculas? {n1.isupper()}")
+print(f"É apenas ASCII? {n1.isascii()}")
+print(f"É apenas decimal? {n1.isdecimal()}")
+print(f"É apenas numérico? {n1.isnumeric()}")
+print(f"Tem apenas espaços? {n1.isspace()}")
+print(f"Tem apenas dígitos? {n1.isdigit()}")
+print(f"Método interno __init_subclass__: {n1.__init_subclass__()}")
