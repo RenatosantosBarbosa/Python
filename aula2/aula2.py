@@ -1,0 +1,7 @@
+print(10 + 10)
+print(4 * 3)
+print(23 - 7)
+print(10 / 2)
+print(10 // 3)
+print(10 % 3)
+print(5 ** 8)
