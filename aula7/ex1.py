@@ -7,5 +7,6 @@ ano_atual = 2025
 ano_nascimento = ano_atual - idade
 imc = peso / (altura * altura)
 
+print()
 print(f"Olá {nome} você tem {idade} anos sua altura é de {altura} você nasceu em {ano_nascimento} e seu IMC é {imc:.2f} ")
 
