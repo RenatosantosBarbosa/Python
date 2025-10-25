@@ -1,6 +1,8 @@
-nome = str(input("Qual o seu nome?: "))
-idade = int(input("Qual a sua idade?: "))
-altura = float(input("Qual a sua altura?: "))
-peso = float(input("Qual seu peso?: "))
+nome = str(input("Digite seu nome?: "))
+altura = float(input("Sua altura?: "))
+idade = int(input("Sua idade? : "))
+peso = float(input("Seu peso?: "))
 
-print(f"Olá {nome} sua idade é {idade} sua altura é {altura} e seu peso é {peso}")
+imc = peso / (altura * altura)
+
+print(f"{nome} tem {idade} anos de idade e seu IMC é {imc:.2f}")

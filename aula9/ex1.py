@@ -1,8 +1,10 @@
-senha = input("Digite uma senha: ")
+numero = input("Digite um número inteiro: ")
 
-qtd_cr = (len(senha))
-
-if qtd_cr < 6:
-    print("Minimo 6 caracteres")
+if numero.lstrip("-").isdigit():
+    numero = int(numero)
+    if numero % 2 == 0:
+        print("O número é par.")
+    else:
+        print("O número é ímpar.")
 else:
-    print("Conta criada com sucesso")
+    print("Não é um número inteiro.")

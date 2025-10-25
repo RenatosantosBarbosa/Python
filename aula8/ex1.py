@@ -1,10 +1,8 @@
-usuario = input("Digite seu usuario: ")
-senha = input("Digite sua senha: ")
+senha = input("Digite uma senha: ")
 
-usuario_bd = "Alex"
-senha_bd = "123456"
+qtd_cr = (len(senha))
 
-if usuario == usuario_bd and senha == senha_bd:
-    print("Login bem sucedido")
+if qtd_cr < 6:
+    print("Minimo 6 caracteres")
 else:
-    print("Usuario ou senha incorreto.")
+    print("Conta criada com sucesso")

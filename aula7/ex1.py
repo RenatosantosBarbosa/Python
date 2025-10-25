@@ -1,11 +1,10 @@
-nome = str(input("Qual o seu nome?: "))
-idade = int(input("Qual a sua idade?: "))
-altura = float(input("Qual sua altura?: "))
-peso = float(input("Qual seu peso?: "))
-ano_atual = 2025
+usuario = input("Digite seu usuario: ")
+senha = input("Digite sua senha: ")
 
-ano_nascimento = ano_atual - idade
-imc = peso / (altura * altura)
+usuario_bd = "Alex"
+senha_bd = "123456"
 
-print()
-print(f"Olá {nome} você tem {idade} anos sua altura é de {altura} você nasceu em {ano_nascimento} e seu IMC é {imc:.2f}")
+if usuario == usuario_bd and senha == senha_bd:
+    print("Login bem sucedido")
+else:
+    print("Usuario ou senha incorreto.")
